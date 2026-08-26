@@ -1,0 +1,18 @@
+=== attempt 1 ===
+resource-guard: build is already running (pid=48780, repo=/Users/junkawasaki/github/com-junkawasaki/orgs/network-awai/cloud-murakumo, started=2026-08-26T01:08:22.792Z)
+retry: lock contended (attempt 1)
+=== attempt 2 ===
+resource-guard: build is already running (pid=48780, repo=/Users/junkawasaki/github/com-junkawasaki/orgs/network-awai/cloud-murakumo, started=2026-08-26T01:08:22.792Z)
+retry: lock contended (attempt 2)
+=== attempt 3 ===
+shadow-cljs - config: /private/tmp/claude-501/mig-app-forms/appview/forms-frontend-gsgpde96/cljs/shadow-cljs.edn
+shadow-cljs - starting via "clojure"
+[:app] Compiling ...
+WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::objectFieldOffset has been called by com.google.common.util.concurrent.AbstractFuture$UnsafeAtomicHelper (file:/Users/junkawasaki/.m2/repository/com/google/guava/guava/32.1.2-jre/guava-32.1.2-jre.jar)
+WARNING: Please consider reporting this to the maintainers of class com.google.common.util.concurrent.AbstractFuture$UnsafeAtomicHelper
+WARNING: sun.misc.Unsafe::objectFieldOffset will be removed in a future release
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+[:app] Build completed. (111 files, 110 compiled, 0 warnings, 16.64s)
